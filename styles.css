@@ -1,0 +1,56 @@
+body {
+  text-align:center;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:30px;
+}
+#site-header {
+  position:fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 1000000;
+
+  opacity:0.95;
+  background-color: white;
+
+  border-bottom: 2px solid lavender;
+  border-bottom-left-radius: 8px;
+  margin-bottom: 2px;
+}
+.header-logo {
+  float: left;
+
+  color: steelblue;
+  background-color: azure;
+
+  padding: 5px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 2px solid lavender;
+  border-bottom: none;
+}
+.n {
+  color: steelblue;
+}
+.header-content {
+  float: right;
+  padding: 7px;
+  font-size: 14px;
+}
+.clear {
+  clear: both;
+}
+#site-content {
+  padding:5px;
+}
+button {
+  cursor:pointer;
+}
+
+
+
+ /*
+  * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
+  * for the full set of master styles used by the documentation samples
+  */
